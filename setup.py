@@ -9,6 +9,9 @@ setup(
     author='Luan Correia',
     author_email='luan.a.correia@live.com',
     license='unlicense',
+    install_requires=[
+        'pandas'
+    ],
     packages=['mynewpackage'],
     zip_safe=False
 )
