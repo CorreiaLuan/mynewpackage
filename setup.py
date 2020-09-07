@@ -1,8 +1,9 @@
 from setuptools import setup
+from mynewpackage import __version__
 
 setup(
     name='mynewpackage',
-    version='0.0.1',
+    version=__version__,
     description='My private package from private github repo',
     url='https://github.com/CorreiaLuan/mynewpackage.git',
     author='Luan Correia',
